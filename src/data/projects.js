@@ -30,5 +30,36 @@ export const projects=[
         repo:"https://github.com/ajinkyajagdale21/PeachCSS-Component-Library",
         ProjectDetails:"ComponentLibrary Made Using",
         TechStack: ["Vanilla CSS"]
-    }
+    },
+    {
+        pid:++id,
+        image: "https://cdn.pixabay.com/photo/2015/01/20/13/13/samsung-605439__340.jpg",
+        projectName:"Spotunes",
+        ProjectCategorie:"Music App",
+        liveLink:"https://aji21-music-player.netlify.app/",
+        repo:"https://github.com/ajinkyajagdale21/music-player",
+        ProjectDetails:"Music App Made Using",
+        TechStack: ["ReactJS"]
+    },
+    {
+        pid:++id,
+        image: "https://cdn.pixabay.com/photo/2015/03/26/09/40/keyboard-690066__340.jpg",
+        projectName:"Reaction game",
+        ProjectCategorie:"Web Game",
+        liveLink:"https://aj21-reaction-game.netlify.app/",
+        repo:"https://github.com/ajinkyajagdale21/reaction-game",
+        ProjectDetails:"Reaction game webApp Made Using",
+        TechStack: ["ReactJS"]
+    },
+    {
+        pid:++id,
+        image: "https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506__480.jpg",
+        projectName:"Calculate IT",
+        ProjectCategorie:"Calculator app",
+        liveLink:"https://aj21-calculator.netlify.app/",
+        repo:"https://github.com/ajinkyajagdale21/calculator/tree/main/src",
+        ProjectDetails:"calculator webApp Made Using",
+        TechStack: ["ReactJS"]
+    },
+
 ]
