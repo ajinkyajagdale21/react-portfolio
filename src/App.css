@@ -4,7 +4,7 @@
   color: white;
 }
 body {
-  background-color: #222629;
+  background-color: #e4e2df;
   margin: 0;
 }
 .home {
@@ -34,7 +34,7 @@ body {
 }
 .footerBar {
   padding-top: 4rem;
-  background-color: #1de5ce;
+  background-color: #222629;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,7 @@ body {
   padding: 1rem 0rem;
 }
 .heading {
+  color: #ff006e;
   margin-top: 5rem;
 }
 @media screen and (max-width: 640px) {

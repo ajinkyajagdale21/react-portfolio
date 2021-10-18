@@ -10,7 +10,7 @@ export const Nav=()=>{
     return(
       <> 
          <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" style={{backgroundColor:"#1de5ce"}}>
+      <AppBar position="fixed" style={{backgroundColor:"#222629"}}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
