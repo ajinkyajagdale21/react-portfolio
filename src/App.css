@@ -1,17 +1,55 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
 .App {
-  text-align: center;
   font-family: "Inter", sans-serif;
   color: white;
 }
 body {
-  background-color: #e4e2df;
-  margin: 0;
+  background-color: #0A192F;
+}
+.color-pal-1{
+  color: #57DFC2
+}
+.color-pal-2{
+  color: white
+}
+.color-pal-3{
+  color: #838DAA;
+}
+.color-pal-4{
+  color:#8892B0
+}
+.nav-btn{
+  color: #64FFDA;
+  border: 1px solid #64FFDA ;
+  margin: 0.5rem 0.3rem
+}
+.soc-btn{
+  color: #64FFDA;
+  font-weight:bolder;
+  padding: 0.5rem;
+}
+.link-btn{
+  color: #64FFDA;
+  border: 1px solid #64FFDA ;
+  margin: 0.5rem 0.3rem;
+  font-weight:bolder;
+  padding: 1rem;
+}
+.link-btn:hover{
+  background-color: #64FFDA;
+  color:black;
+  border: 1px solid #64FFDA ;
+}
+.sub-titles{
+  display: flex;
+
 }
 .home {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 12rem 0rem 3rem 0rem;
+  margin: 3rem 0rem;
 }
 .footer {
   display: flex;
@@ -46,8 +84,31 @@ body {
   padding: 1rem 0rem;
 }
 .heading {
-  color: #ff006e;
-  margin-top: 5rem;
+  text-align: center;
+  margin: 5rem 0rem 3rem 0rem;
+}
+.homepage{
+  margin: 5rem 8%;
+  position: absolute;
+}
+.section{
+  margin: 2rem 0rem 4rem 0rem;
+}
+.creative-header {
+  position: relative;
+  font-size: 30px;
+  z-index: 1;
+  overflow: hidden;
+}
+ .creative-header:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 100%;
+  height: 1px;
+  content: '\a0';
+  background-color: white;
+  margin: 0rem 1rem;
 }
 @media screen and (max-width: 640px) {
   .blog-page {
@@ -55,6 +116,5 @@ body {
   }
   .home {
     flex-direction: column;
-    margin-top: 5rem;
   }
 }

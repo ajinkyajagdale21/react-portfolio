@@ -1,15 +1,162 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
-export const Home=()=>{
-    return(
-        <div className="home">
-        <img src="https://pbs.twimg.com/profile_images/1369317140445224961/Tj91NbPc.jpg" alt="profile" style={{border:"2px solid #FF006E",borderRadius:"50%",width:"12rem",height:"12rem",margin:"0rem 1rem",padding:"0.5rem"}}/>
+export const Home = () => {
+  return (
+    <div className="homepage">
+      <div className="section">
+        <h4 className="color-pal-1 py-1">Hi, my name is</h4>
+        <h1 className="color-pal-2 fw-bolder">Ajinkya H Jagadale.</h1>
+        <h1 className="color-pal-4 py-1 fw-bolder">
+          {" "}
+          I build things for the web.
+        </h1>
+        <h5 className="color-pal-3 py-1">
+          I’m a <span className="color-pal-1"> Full-stack web Developer </span>
+          who loves building Websites & Web-apps.
+        </h5>
+      </div>
+
+      <div className="home" id="About">
         <div>
-        <h2 style={{color:"black"}}>Hello !!</h2>
-        <h1 style={{color:"#FF006E"}}>I'm Ajinkya H Jagadale</h1>
-        <h2 style={{color:"black"}}>Full Stack Web Developer</h2>
-        <h2 style={{color:"#FF006E"}}>I love building projects and writing blogs.</h2>
+          <h2 className="color-pal-4 fw-bolder creative-header">
+            <span className="color-pal-1 ">01.</span> About Me
+          </h2>
+
+          <h5 className="color-pal-3 p-2">
+            {" "}
+            Creative Full-stack MERN developer & developing responsive websites.
+          </h5>
+          <h5 className="mx-2">Skills :</h5>
+          <div>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Javascript</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">React JS</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Express JS</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">
+              Mongoose ODM
+            </span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Node JS</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">C</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">C++</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">
+              Modern libraries and Frameworks
+            </span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">HTML</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">CSS</span>
+          </div>
         </div>
+        <img
+          src="https://pbs.twimg.com/profile_images/1369317140445224961/Tj91NbPc.jpg"
+          alt="profile"
+          className="mt-5"
+          style={{
+            width: "15rem",
+            height: "15rem",
+            padding: "0.5rem",
+            borderRadius: "1rem",
+          }}
+        />
+      </div>
+
+      <div className="section ">
+        <h2 className="color-pal-4 fw-bolder" id="Work">
+          <span className="color-pal-1">02.</span> Where I've Worked
+        </h2>
+        <div className="pt-3">
+          <p className="fs-5">
+            Frontend Developer Intern{" "}
+            <span className="color-pal-1 ">
+              @OhLocal ( A Product of O2O Mavericks Pvt. Ltd. )
+            </span>
+          </p>
+          <p className="color-pal-4">Nov 2021 - Mar 2022</p>
+          <ul className="color-pal-3">
+            <li>
+              Worked on Blog Application , created completely responsive and
+              bootstrapped ReactJS UI
+            </li>
+            <li>
+              worked with firebase for authentication and google analytics ,
+              added SEO & integrated API with functionality with frontend.
+            </li>
+          </ul>
         </div>
-    )
-}
+      </div>
+      <div className="section">
+        <h2 className="color-pal-4 fw-bolder creative-header">
+          <span className="color-pal-1 ">03.</span> Projects
+        </h2>
+        <p className="fs-5 py-2">
+          I have worked on some projects, you should checkout .
+        </p>
+        <Link className="link" to="/projects">
+          <button className="btn link-btn">Browse Projects</button>
+        </Link>
+      </div>
+      <div className="section">
+        <h2 className="color-pal-4 fw-bolder creative-header">
+          <span className="color-pal-1 ">04.</span> Blogs
+        </h2>
+        <p className="fs-5 py-2">
+          I am also working on some Technical Blogs. You can visit the Blogs
+          Here
+        </p>
+        <Link className="link" to="/blogs">
+          <button className="btn link-btn">My Blogs</button>
+        </Link>
+      </div>
+      <div
+        className="section text-center "
+        style={{ marginBottom: "2rem" }}
+        id="Contact"
+      >
+        <h2 className="color-pal-4 fw-bold "> Get In Touch</h2>
+        <a
+          className="btn soc-btn"
+          href="https://www.linkedin.com/in/ajinkya-h-jagadale-78a899200"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedInIcon />
+        </a>
+        <a
+          className="btn soc-btn"
+          href="https://github.com/ajinkyajagdale21"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHubIcon />
+        </a>
+        <a
+          className="btn soc-btn"
+          href="https://instagram.com/ajinkyajagdale21"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <InstagramIcon />
+        </a>
+        <a
+          className="btn soc-btn"
+          href="https://twitter.com/Ajinkya_J_21"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TwitterIcon />
+        </a>
+        <button
+          className="btn soc-btn"
+          onClick={() =>
+            (window.location = "mailto:ajinkyajagdale21@gmail.com")
+          }
+        >
+          <EmailIcon />
+        </button>
+      </div>
+    </div>
+  );
+};

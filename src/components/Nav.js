@@ -1,25 +1,92 @@
-import React from 'react'
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import {Link} from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-export const Nav=()=>{
-    return(
-      <> 
-         <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" style={{backgroundColor:"#222629"}}>
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          </Typography>
-          <Link className="link" to="/"><Button color="inherit" >Home</Button></Link>
-          <Link className="link" to="/projects"><Button color="inherit" >Projects</Button></Link>
-          <Link className="link" to="/blogs"><Button color="inherit" >Blogs</Button></Link>
-        </Toolbar>
-      </AppBar>
-    </Box> 
-      </>
-    )
-}
+export const Nav = () => {
+  return (
+    <nav
+      className="navbar navbar-expand-lg fixed-top"
+      style={{
+        boxShadow: "0 3px 0px 0 rgba(0,0,0,.2)",
+        backgroundColor: "#0A192F",
+      }}
+    >
+      <div className="container-fluid">
+        <p className="navbar-brand"> </p>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i className="fa-solid fa-bars" style={{ color: "white" }}></i>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <form className="d-flex"></form>
+
+          <a className="btn nav-btn" href="/#About">
+            <span
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+              About
+            </span>
+          </a>
+
+          <a className="btn nav-btn" href="/#Work">
+            <span
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+              Experience
+            </span>
+          </a>
+
+          <Link className="link" to="/projects">
+            <button
+              className="btn nav-btn"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+              Projects
+            </button>
+          </Link>
+          <Link className="link" to="/blogs">
+            <button
+              className="btn nav-btn"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+              Blogs
+            </button>
+          </Link>
+
+          <a className="btn nav-btn " href="/#Contact">
+            <span
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+              Contact
+            </span>
+          </a>
+          <a
+            className="btn nav-btn "
+            href="https://drive.google.com/file/d/1gzlKYiNebkeaHVCIh3iJN9YDmgEsDep8/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+              Resume
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+};
