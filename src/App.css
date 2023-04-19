@@ -110,11 +110,17 @@ body {
   background-color: white;
   margin: 0rem 1rem;
 }
+.card{
+  height: 100%;
+  color: white;
+  background-color: #19314B;
+  padding: 1rem;
+}
 @media screen and (max-width: 640px) {
-  .blog-page {
-    flex-direction: column;
-  }
   .home {
     flex-direction: column;
+  }
+  .proj-container{
+    padding: 0rem 10%;
   }
 }

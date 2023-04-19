@@ -4,6 +4,17 @@ export const projects = [
     pid: ++id,
     image:
       "https://cdn.pixabay.com/photo/2018/03/14/01/03/subscribe-3224137_960_720.jpg",
+    projectName: "customizable-react-audio-player",
+    ProjectCategorie: "NPM Package",
+    ProjectDetails: "customizable-react-audio-player allows you to change styles and colors to your react audio player with ease.",
+    liveLink: "https://www.npmjs.com/package/customizable-react-audio-player",
+    repo: "https://github.com/ajinkyajagdale21/customized-react-audio-player",
+    TechStack: ["Npm","ReactJs", "Material UI"],
+  },
+  {
+    pid: ++id,
+    image:
+      "https://cdn.pixabay.com/photo/2018/03/14/01/03/subscribe-3224137_960_720.jpg",
     projectName: "SwiftFlix",
     ProjectCategorie: "VideoLibrary App",
     ProjectDetails: "VideoLibrary Web App Made Using",

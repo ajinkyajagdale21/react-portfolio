@@ -5,17 +5,12 @@ export function ProjectPage() {
   return (
     <>
       <h1 className="heading">Projects</h1>
-      <div className="blog-page">
+      <div className="container proj-container">
+        <div className="row justify-content-center">
         {projects.map((project) => (
+         <div className="col-12 col-md-6 col-lg-4 col-xl-3 my-3"> 
           <div
             className="card"
-            style={{
-              width: "18rem",
-              color: "white",
-              backgroundColor: "#19314B",
-              margin: "1rem",
-              padding: "1rem 1rem",
-            }}
             key={project.pid}
           >
             <div className="card-body">
@@ -52,8 +47,10 @@ export function ProjectPage() {
               ))}
             </div>
           </div>
+          </div>
         ))}
-      </div>
+        </div>
+  </div>
     </>
   );
 }
