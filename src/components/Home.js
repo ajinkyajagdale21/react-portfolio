@@ -42,6 +42,8 @@ export const Home = () => {
               Mongoose ODM
             </span>
             <span className="badge text-bg-light p-2 m-2 fs-6">Node JS</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Docker</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">S3</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">Git</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">C</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">C++</span>
@@ -79,21 +81,25 @@ export const Home = () => {
           <p className="color-pal-4">Oct 2022 - Present</p>
           <ul className="color-pal-3">
             <li>
-             I have developed a React.js web application from scratch with a team of two that utilizes an AI-powered Django REST API on the backend. The app
-features a responsive design, with Bootstrap and Material UI providing consistent styling and responsiveness across all devices. I integrated the
-authentication system using the APIs and used powerful dependencies like Fuse.js for efficient document searching. Additionally, I structured the app
-with clean code and thorough documentation. To optimize performance, I implemented lazy loading to ensure a smooth user experience even on
-slower internet connections.
-
+            Developed a responsive user interface for a full-stack AI-powered and API integrated React webapp
+with a suite of tools for , text-to-speech, speech and photo recognition. Used React, Material UI, and Redux to create a user-friendly and efficient interface. Optimized
+performance using lazy loading and code splitting, resulting in a 15% reduction in page load times and a
+20% increase in concurrent users.
             </li>
             <li>
-            I developed an Angular project from scratch that features simple, responsive design for multiple pages, I integrated authentication using Firebase
-Auth. Additionally, the project consumes a Node.js and Express API that utilizes Firestore as its database. By utilizing TypeScript, I was able to provide
-type checking to ensure more reliable and efficient code.
-
+            Created a NextJS dashboard for crypto tax tracking and Provides clear overview of crypto taxes . The NextJS dashboard is authenticated with Auth0, uses optimized Lottie animations, and is styled
+with modular CSS and Bootstrap, skeleton loading is added for a smooth user experience.
             </li>
             <li>
-             Fixed UI issues raised by testing team.
+            Built an Angular project from scratch with responsive design for multiple pages, Integrated authentication using Firebase Auth, ensuring a secure and seamless user experience. Consumed a Node.js and Express API that utilizes Firestore as its database, providing a scalable and
+reliable backend, Utilized TypeScript for type checking, ensuring more reliable and efficient code.
+            </li>
+            <li>
+            Developed a React dashboard that calculates carbon emissions by calculating via different scopes and
+generates reports with input from those forms and powerful AI flask API's ,has helped many companies to measure and reduce their carbon emissions by an average of 22%.
+            </li>
+            <li>
+            Fixed UI issues raised by testing team and creating docker images for applications .
             </li>
           </ul>
         </div>
@@ -107,10 +113,11 @@ type checking to ensure more reliable and efficient code.
           <p className="color-pal-4">Nov 2021 - Mar 2022</p>
           <ul className="color-pal-3">
             <li>
-             Developed a responsive React.js UI for a blog application, integrated Firebase for authentication and Google Analytics for user tracking.
+            Developed a high-performing React.js blog application with Firebase authentication and integrated
+Google Analytics for tracking user behavior .
             </li>
             <li>
-            Added SEO techniques to improve the application's visibility and integrated API functionality with the frontend. Resulted in a reliable and highperforming web application with enhanced user engagement.
+            Optimized web app for SEO, resulting in good rankings for specific keywords .
             </li>
           </ul>
         </div>

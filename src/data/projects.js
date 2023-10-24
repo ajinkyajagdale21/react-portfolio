@@ -4,6 +4,17 @@ export const projects = [
     pid: ++id,
     image:
       "https://cdn.pixabay.com/photo/2018/03/14/01/03/subscribe-3224137_960_720.jpg",
+    projectName: "SwiftGPT",
+    ProjectCategorie: "Open AI integrated App",
+    ProjectDetails: "Our Q/A React application, uses advanced algorithms to provide you with accurate answers to your questions in seconds",
+    liveLink: "https://swift-gpt.vercel.app/",
+    repo: "https://github.com/ajinkyajagdale21/swiftGPT",
+    TechStack: ["Open AI","ReactJs", "Auth 0","Tailwind CSS"],
+  },
+  {
+    pid: ++id,
+    image:
+      "https://cdn.pixabay.com/photo/2018/03/14/01/03/subscribe-3224137_960_720.jpg",
     projectName: "customizable-react-audio-player",
     ProjectCategorie: "NPM Package",
     ProjectDetails: "customizable-react-audio-player allows you to change styles and colors to your react audio player with ease.",
