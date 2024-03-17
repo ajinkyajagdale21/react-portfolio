@@ -74,7 +74,7 @@ export const Nav = () => {
           </a>
           <a
             className="btn nav-btn "
-            href="https://drive.google.com/file/d/1dBofzDjQbed_k47503gMRrtgCtyotq2f/view"
+            href="https://drive.google.com/file/d/1OJAM99y5H6psAPkWvZyvIdPaXGnLxOok/view"
             target="_blank"
             rel="noopener noreferrer"
           >
