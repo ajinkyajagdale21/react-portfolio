@@ -5,6 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import digitalArt from '../assets/digital_artist_male.jpg'
 
 export const Home = () => {
   return (
@@ -25,7 +26,7 @@ export const Home = () => {
             <span className="color-pal-1 ">01.</span> About Me
           </h2>
 
-          <h5 className="color-pal-3 p-2"> Creative Full-stack MERN developer & developing responsive websites.</h5>
+          <h5 className="color-pal-3 p-2"> Creative Full-stack MERN/MEAN developer & developing responsive websites.</h5>
           <h5 className="mx-2">Skills :</h5>
           <div>
             <span className="badge text-bg-light p-2 m-2 fs-6">Javascript</span>
@@ -44,13 +45,24 @@ export const Home = () => {
             <span className="badge text-bg-light p-2 m-2 fs-6">CSS</span>
           </div>
         </div>
-        <img
+        {/*<img
           src="https://pbs.twimg.com/profile_images/1369317140445224961/Tj91NbPc.jpg"
           alt="profile"
           className="mt-5"
           style={{
             width: "15rem",
             height: "15rem",
+            padding: "0.5rem",
+            borderRadius: "1rem",
+          }}
+        />*/}
+        <img
+          src={digitalArt}
+          alt="profile"
+          className="mt-5"
+          style={{
+            width: "30rem",
+            height: "25rem",
             padding: "0.5rem",
             borderRadius: "1rem",
           }}
@@ -63,9 +75,26 @@ export const Home = () => {
         </h2>
         <div className="pt-3">
           <p className="fs-5">
+            Senior Software Developer <span className="color-pal-1 ">@SPRY</span>
+          </p>
+          <p className="color-pal-4">Sept 2024 - Present</p>
+          <ul className="color-pal-3">
+            <li>Developed a physical therapy software solution using Angular 14, enabling dynamic forms, SOAP
+            note documentation, and eFax integration for clinics.</li>
+            <li>
+            Architected reusable UI components with Tailwind CSS.
+            </li>
+            <li>
+            Leveraged RxJS for efficient state management and asynchronous data flow, streamlining clinic
+            workflows.
+            </li>
+          </ul>
+        </div>
+        <div className="pt-3">
+          <p className="fs-5">
             Software Engineer - Frontend <span className="color-pal-1 ">@Flairminds Software Pvt. Ltd.</span>
           </p>
-          <p className="color-pal-4">Oct 2022 - Present</p>
+          <p className="color-pal-4">Oct 2022 - Aug 2024</p>
           <ul className="color-pal-3">
             <li>Managed 7+ projects to success through coding, documentation (SRS, POCs), and system design.</li>
             <li>
