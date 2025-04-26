@@ -61,7 +61,7 @@ export const Home = () => {
           alt="profile"
           className="mt-5"
           style={{
-            width: "30rem",
+            width: "28rem",
             height: "25rem",
             padding: "0.5rem",
             borderRadius: "1rem",
